@@ -46,7 +46,7 @@
           <tab heading="Interests">
             <h4>Interests</h4>
             <p>{{user.interests}}</p>
-            <p *ngIf="user.lookingFor == null || user.lookingFor == ''" class="text-secondary">The user hasn't any interests.</p>
+            <p *ngIf="user.lookingFor == null || user.lookingFor == ''" class="text-secondary">The user hasn't set any interests.</p>
           </tab>
           <tab heading="Photos">
             <ngx-gallery *ngIf="user.photoUrl != null" style="display: inline-block; margin-bottom: 20px;" [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>
