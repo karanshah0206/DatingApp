@@ -53,7 +53,7 @@
             <p *ngIf="user.photoUrl == null" class="text-secondary">The user hasn't uploaded any photos.</p>
           </tab>
           <tab heading="Messages">
-            <p>Messages will go here.</p>
+            <app-member-messages [recipientId]="user.id"></app-member-messages>
           </tab>
         </tabset>
       </div>
