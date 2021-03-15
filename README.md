@@ -1,6 +1,8 @@
 # Dating App
 A simple, secure, and scalable dating website built using Angular and Dot Net. Requires DotNet v3.0.x and Angular 9.
 
+![DatingApp Screenshot](DatingApp.png "DatingApp Screenshot")
+
 # Key Features
 * Real Time Messaging
 * Like Users
