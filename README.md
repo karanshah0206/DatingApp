@@ -13,7 +13,7 @@ A simple, secure, and scalable dating website built using Angular and Dot Net. R
 * Great Filters To Find Your Ideal Match
 
 # Setup
-Download and Install DotNet v3.0, Angular v9, & SQLite. Then fork & clone this repository onto your computer.
+Download and Install DotNet v3.0, Angular v9, & SQLite. Then clone this repository onto your computer.
 
 To run in production mode, go to the DatingApp-SPA folder in command prompt/terminal and use the command: *ng build --prod*. Then, go to the DatingApp.API folder and use the command: *dotnet ef database update*. This creates the database. Once that is done, run the command: *dotnet run*. Now, if you go to localhost:5000 on your computer, you should see the DatingApp.
 
